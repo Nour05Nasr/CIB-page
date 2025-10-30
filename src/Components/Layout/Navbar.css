@@ -1,0 +1,15 @@
+.nav{
+    width: 100%;
+    padding: 1% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    background-color: #032D62;
+}
+.nav_p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight:  bold;
+    color: #fff;
+}
