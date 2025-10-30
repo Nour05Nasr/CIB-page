@@ -4,7 +4,7 @@ import './MainMenuTap.css';
 const MainMenuTap = (props) => {
     return ( 
         <>
-        <p> {props.color} {props.title} </p>
+        <p className='nav_p'> {props.title} </p>
         </>
      );
 }
