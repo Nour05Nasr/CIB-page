@@ -7,10 +7,8 @@ import Header from '../Components/Layout/Header';
 const Home = () => {
     return (
         <>
-        
         <Navbar />
         <Header />
-
         </>
       );
 }

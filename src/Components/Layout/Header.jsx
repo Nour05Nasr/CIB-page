@@ -12,7 +12,7 @@ const Header = () => {
             <p className='hero_p'>community and our shareholders</p>
             <Button title="Discover more"/>
         </div>
-          <img className='hero_img' src="/assets/hero.jpg" alt="CIB 50 years logo" />
+          <img className='hero_img' src="/assets/hero.jpg" alt="CIB Hero"/>
         </div>
         </>
      );
