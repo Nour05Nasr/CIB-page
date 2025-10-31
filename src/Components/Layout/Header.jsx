@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Button from '../Common/Button';
+import hero from '../../Assets/hero.jpg';
 import './Header.css';
 
 const Header = () => {
@@ -12,7 +13,8 @@ const Header = () => {
             <p className='hero_p'>community and our shareholders</p>
             <Button title="Discover more"/>
         </div>
-          <img className='hero_img' src="/assets/hero.jpg" alt="CIB Hero"/>
+          <img src={hero} alt="CIB Hero"className="hero_img" />
+          {/* <img className='hero_img' src="/assets/hero.jpg" alt="CIB Hero"/> */}
         </div>
         </>
      );

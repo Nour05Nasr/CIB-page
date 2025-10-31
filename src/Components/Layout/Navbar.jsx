@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import MainMenuTap from '../Common/MainMenuTap';
+import logo from '../../Assets/logo.svg';
 import './Navbar.css';
 
 const Navbar = () => {
     return ( 
         <>
         <div className='nav'>
-          <img src="/assets/logo.svg" alt="CIB 50 years logo"/>
+          <img src={logo} alt="logo"/>
+          {/* <img src="/assets/logo.svg" alt="CIB 50 years logo"/> */}
           <MainMenuTap title="About Us"/>
           <MainMenuTap title="Investor Relations"/>
           <MainMenuTap title="Responsible Banking"/>
