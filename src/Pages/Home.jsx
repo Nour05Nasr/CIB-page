@@ -25,6 +25,7 @@ import icon7 from '../Assets/icon7.svg';
 import icon8 from '../Assets/icon8.svg';
 import icon9 from '../Assets/icon9.svg';
 import WeCard from '../Components/Common/WeCard';
+import Footer from '../Components/Layout/Footer';
 {/* <link rel="icon" type="image/x-icon" href="/assets/logo.svg"></link> */}
 
 const Home = () => {
@@ -129,6 +130,7 @@ const Home = () => {
             <WeCard image={icon9} title="In branch"/>
           </div>
           </div>
+          <Footer />
         </>
       );
 }

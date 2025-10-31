@@ -1,0 +1,83 @@
+.footer_div{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1D3766;
+    background-image: url(../../Assets/footer_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.upper_footer{
+    width: 78%;
+    height: 198px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 6%;
+    /* background-color: aquamarine; */
+}
+.row_div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 14%;
+    /* background-color: lightpink; */
+}
+.row_div0{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 6%;
+}
+.row_div1{
+    width: 78%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /* background-color: wheat; */
+    gap: 24%;
+}
+.row_div2{
+    width: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 6%;
+    /* background-color: orange; */
+}
+.row_div3{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 6%;
+    /* background-color: cyan; */
+}
+.column_div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.footer_hr{
+    width: 78%;
+    margin: 0 0 2% 0;
+    border: 1px solid #004A88;
+}
+.copy_p{    
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    color: #B8BABC;
+    width: 92%;
+    height: 70px;
+    padding: 0 8% 0 0;
+    margin: 0;
+    background-color: #004A88;
+}
