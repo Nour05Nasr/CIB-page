@@ -38,6 +38,9 @@ body{
 .gap{
     gap: 8vh;
 }
+.gap2{
+    gap: 3vh;
+}
 .section_p{
     font-family: "Inter", sans-serif;
     font-size: 24px;
@@ -45,6 +48,48 @@ body{
     color: #333333;
     margin: 0;
 }
+.news_section{
+    width: 100%;
+    height: 1103px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAFAFA;
+}
 .top{
     margin-top: 3%;
+}
+.ad_section{
+    width: 100%;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    background-color: #1858A8;
+    background-image: url(../Assets/ad.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: contain; */
+}
+.ad_card{
+    width: 380px;
+    height: 187px;
+    padding: 0 2%;
+    margin: 0 0 0 250px;
+    border-radius: 6px;
+    border: 1px #E7E7E799;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 8%;
+    border-top: 6px solid #F58420;
+}
+.ad_h{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    margin: 0;
+    font-weight:  bold;
+    color: #333333;
 }
