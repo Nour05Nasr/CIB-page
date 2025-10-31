@@ -2,10 +2,10 @@
     width: 150px;
     height: 48px;
     border-radius: 8px;
-    background-color: #032D62;
+    background-color: #1858A8;
     color: #fff;
 }
 .btn:hover{
     background-color: #ffffff;
-    color: #032D62;
+    color: #1858A8;
 }
