@@ -15,6 +15,12 @@ import card2 from '../Assets/card2.jpg';
 import card3 from '../Assets/card3.jpg';
 import Button from '../Components/Common/Button';
 import NewsCard from '../Components/Common/NewsCard';
+import Ex from '../Assets/Ex.svg';
+import Bloomberg from '../Assets/Bloomberg.svg';
+import Good from '../Assets/Good.svg';
+import icon4 from '../Assets/icon4.svg';
+import icon5 from '../Assets/icon5.svg';
+import icon6 from '../Assets/icon6.svg';
 {/* <link rel="icon" type="image/x-icon" href="/assets/logo.svg"></link> */}
 
 const Home = () => {
@@ -65,7 +71,51 @@ const Home = () => {
             <Button title="Learn more"/>
           </div>
         </div>
-
+        <div className='logos gap'>
+          <div className='display'>
+          <SubTitle title="Sustainable finance"/>
+          <SectionTitle title="Sustainability is an integral part of the way we work"/>
+          </div>
+          <div className='cards_div'>
+          <div className='display box_w'>
+            <img src={Ex} alt="logos" />
+            <h2 className='logos_h'>S&P/EGX ESG Index</h2>
+          </div>
+          <div className='display box_w'>
+            <img src={Bloomberg} alt="logos" />
+            <h2 className='logos_h'>Bloomberg Gender Equality Index</h2>
+          </div>
+          <div className='display box_w'>
+            <img src={Good} alt="logos" />
+            <h2 className='logos_h'>FTSE4Good Index</h2>
+          </div>
+          </div>
+          <Button title="Learn more"/>
+        </div>
+        <div className='awwards gap'>
+          <div className='display'>
+          <SubTitle title="Awards"/>
+          <SectionTitle title="CIB's integrity and quality are recognized internationally"/>
+          </div>
+          <div className='cards_div'>
+          <div className='display box_w'>
+            <img src={icon4} alt="icons" />
+            <h2 className='logos_h'>Best Private Bank in Egypt</h2>
+                        <p className='center_p'>Global Finance - 2023</p>
+          </div>
+          <div className='display box_w'>
+            <img src={icon5} alt="icons" />
+            <h2 className='logos_h'>Best Mergers & Acquisitions <br />Deal in MENA</h2>
+                        <p className='center_p'>Euromoney - 2023</p>
+          </div>
+          <div className='display box_w'>
+            <img src={icon6} alt="icons" />
+            <h2 className='logos_h'>Best Bank in Egypt</h2>
+            <p className='center_p'>Euromoney - 2023</p>
+          </div>
+          </div>
+          <Button title="See all our awards"/>
+        </div>
         </>
       );
 }
