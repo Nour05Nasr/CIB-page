@@ -21,6 +21,10 @@ import Good from '../Assets/Good.svg';
 import icon4 from '../Assets/icon4.svg';
 import icon5 from '../Assets/icon5.svg';
 import icon6 from '../Assets/icon6.svg';
+import icon7 from '../Assets/icon7.svg';
+import icon8 from '../Assets/icon8.svg';
+import icon9 from '../Assets/icon9.svg';
+import WeCard from '../Components/Common/WeCard';
 {/* <link rel="icon" type="image/x-icon" href="/assets/logo.svg"></link> */}
 
 const Home = () => {
@@ -73,7 +77,7 @@ const Home = () => {
         </div>
         <div className='logos gap'>
           <div className='display'>
-          <SubTitle title="Sustainable finance"/>
+          <SubTitle title="SUSTAINABLE FINANCE"/>
           <SectionTitle title="Sustainability is an integral part of the way we work"/>
           </div>
           <div className='cards_div'>
@@ -94,7 +98,7 @@ const Home = () => {
         </div>
         <div className='awwards gap'>
           <div className='display'>
-          <SubTitle title="Awards"/>
+          <SubTitle title="AWARDS"/>
           <SectionTitle title="CIB's integrity and quality are recognized internationally"/>
           </div>
           <div className='cards_div'>
@@ -116,6 +120,15 @@ const Home = () => {
           </div>
           <Button title="See all our awards"/>
         </div>
+         <div className='apply'>
+          <SubTitle title="WE CARE"/>
+          <SectionTitle title=" Our dedicated team is committed to meeting your needs"/>
+          <div className='cards_div'>
+            <WeCard image={icon7} title="Online"/>
+            <WeCard image={icon8} title="On the phone"/>
+            <WeCard image={icon9} title="In branch"/>
+          </div>
+          </div>
         </>
       );
 }
